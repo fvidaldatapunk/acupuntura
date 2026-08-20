@@ -1,0 +1,9 @@
+
+supabase
+os
+load_dotenv
+pandas
+datetime
+streamlit
+plotly.express
+PIL

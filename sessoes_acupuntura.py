@@ -33,7 +33,7 @@ dias = {
     5: "Sábado",
     6: "Domingo"}
 
-df_sessoes['Data'] = pd.to_datetime(df_sessoes['Data'])
+df_sessoes['Data'] = pd.to_datetime(df_sessoes['Data'], format='%d/%m/%Y %H:%M')
 df_sessoes['Dia da semana'] = df_sessoes['Data'].dt.weekday.map(dias)
 df_sessoes['Ano'] = df_sessoes['Data'].dt.year
 df_sessoes['Mês'] = df_sessoes['Data'].dt.month_name()

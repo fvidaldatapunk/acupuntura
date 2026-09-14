@@ -57,7 +57,7 @@ st.download_button(
 st.download_button(
     label='📄 Análisis en español',
     data=pdf_data,
-    file_name='Analise Clinica de Acupuntura.pdf',
+    file_name='Analise Clinica de Acupuntura espanol.pdf',
     mime='application/pdf'
 )
 

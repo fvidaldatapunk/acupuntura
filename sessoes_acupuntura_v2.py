@@ -54,10 +54,13 @@ st.download_button(
     mime='application/pdf'
 )
 
+with open('Analisis Clinica de Acupuntura espanol.pdf', 'rb') as f:
+    pdf_data = f.read()
+
 st.download_button(
     label='📄 Análisis en español',
     data=pdf_data,
-    file_name='Analise Clinica de Acupuntura espanol.pdf',
+    file_name='Analisis Clinica de Acupuntura espanol.pdf',
     mime='application/pdf'
 )
 

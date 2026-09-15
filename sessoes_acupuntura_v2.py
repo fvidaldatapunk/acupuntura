@@ -41,8 +41,17 @@ with col_logo:
 with col_titulo:
     st.markdown('<h1 style="color: #FFFFFF; margin-top: 40px;">Análise Clínica de Acupuntura</h1>', unsafe_allow_html=True)
 
-st.markdown('<p style="color: #FFFFFF; font-size: 14px; font-family: Arial;">*Dados fictícios<br>*O dashboard considera o período de 01/01/2024 a 31/12/2026'
+st.markdown('<p style="color: #FFFFFF; font-size: 12px; font-family: Arial;">*Dados fictícios<br>*O dashboard considera o período de 01/01/2024 a 31/12/2026'
 '</p>', unsafe_allow_html=True)
+
+st.markdown('<p style="color: #FFFFFF; font-size: 12px; font-family: Arial;">*Datos ficticios.<br>*El dashboard contempla el período del 01/01/2024 al 31/12/2026.'
+'</p>', unsafe_allow_html=True)
+
+st.markdown('<p style="color: #FFFFFF; font-size: 16px; font-family: Arial;">A questão a ser respondida aqui é: Por que houve queda no faturamento em 2026?<br>'
+'Nos ícones abaixo, pode-se acessar a análise completa, que vai apontar onde devemos buscar a resposta.''</p>', unsafe_allow_html=True)
+
+st.markdown('<p style="color: #FFFFFF; font-size: 16px; font-family: Arial;">La cuestión que debemos responder aquí es: ¿Por qué hubo una caída en la facturación en 2026?<br>'
+'En los iconos de abajo, puedes acceder al análisis completo, que nos ayudará a identificar dónde debemos buscar las respuestas.''</p>', unsafe_allow_html=True)
 
 with open('Analise Clinica de Acupuntura.pdf', 'rb') as f:
     pdf_data = f.read()

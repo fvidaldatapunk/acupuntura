@@ -9,10 +9,13 @@ import plotly.express as px
 from PIL import Image
 
 
-load_dotenv()
+#load_dotenv()
 
-url = os.getenv('SUPABASE_URL')
-key = os.getenv('SUPABASE_KEY')
+#url = os.getenv('SUPABASE_URL')
+#key = os.getenv('SUPABASE_KEY')
+
+url = st.secrets["SUPABASE_URL"]
+key = st.secrets["SUPABASE_KEY"]
 
 supabase = create_client(url,key)
 
